@@ -1,0 +1,4 @@
+*.zip
+.gemini/
+.agent/
+node_modules/

@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paniri Reutiliza | Reutilización creativa de botellas de vidrio en Calama</title>
+    <meta
+      name="description"
+      content="Paniri Reutiliza transforma botellas de vidrio en productos de valor en Calama, II Región de Chile. Compra vasos, lámparas y más, hechos a partir de residuos."
+    />
+    <meta name="theme-color" content="#020617" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo-group">
+          <div class="logo-mark">P</div>
+          <div class="logo-text">
+            <span class="logo-title">Paniri Reutiliza</span>
+            <span class="logo-subtitle">Reutilización de botellas de vidrio en Calama</span>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#sobre-nosotros">Nosotros</a>
+          <a href="#impacto">Impacto</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="header-actions">
+          <button class="menu-toggle" aria-label="Abrir menú" id="mobileMenuBtn" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button class="cart-toggle" aria-label="Abrir carrito" id="cartToggleBtn">
+            <span class="cart-count-badge" id="cartCount">0</span>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </button>
+        </div>
+      </div>
+
+      <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil" aria-hidden="true">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#sobre-nosotros">Nosotros</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="hero-tag">Calama · II Región de Chile</span>
+            <h1>
+              Transformamos botellas de vidrio en
+              <span class="hero-highlight">productos con historia</span>.
+            </h1>
+            <p>
+              En <strong>Paniri Reutiliza</strong> damos una segunda vida a las botellas de vidrio de Calama,
+              convirtiéndolas en piezas únicas para tu hogar, tu negocio o para regalar con sentido.
+            </p>
+            <div class="hero-actions">
+              <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+              <a href="#impacto" class="btn btn-ghost">Conoce nuestro impacto</a>
+            </div>
+            <div class="hero-badges">
+              <div class="badge">
+                <span class="badge-number">+1.5K</span>
+                <span class="badge-label">Botellas reutilizadas</span>
+              </div>
+              <div class="badge">
+                <span class="badge-number">100%</span>
+                <span class="badge-label">Hecho a mano en Calama</span>
+              </div>
+              <div class="badge">
+                <span class="badge-number">0</span>
+                <span class="badge-label">Residuos nuevos</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card hero-card-main">
+              <h2>Diseño sustentable</h2>
+              <p>Vasos, lámparas y decoración creados a partir de botellas recuperadas.</p>
+            </div>
+            <div class="hero-card hero-card-secondary">
+              <p>Hecho a mano</p>
+              <span>Paniri Reutiliza</span>
+            </div>
+            <div class="hero-card hero-card-stat">
+              <p>Reutilizamos</p>
+              <span>botellas de casas, bares y restaurantes locales.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogo" class="section">
+        <div class="container section-header">
+          <h2>Catálogo de productos</h2>
+          <p>
+            Revisa nuestro catálogo de productos hechos a partir de botellas de vidrio reutilizadas. Selecciona tus favoritos,
+            agrégalos al carrito y envíanos tu pedido por WhatsApp para coordinar pago y entrega en Calama.
+          </p>
+        </div>
+        <div class="container products-grid" id="productsGrid" aria-live="polite"></div>
+      </section>
+
+      <section id="proceso" class="section section-alt">
+        <div class="container section-grid">
+          <div>
+            <h2>De residuo a producto de valor</h2>
+            <p>
+              Trabajamos principalmente con <strong>botellas de vidrio en desuso</strong> que recolectamos de
+              hogares, restaurantes y bares de Calama. Cada pieza pasa por un proceso cuidadoso para asegurar
+              calidad, seguridad y un acabado profesional.
+            </p>
+            <ul class="steps-list">
+              <li>
+                <span class="step-number">1</span>
+                <div>
+                  <h3>Recolección y selección</h3>
+                  <p>Clasificamos las botellas según color, forma y estado para definir el mejor uso posible.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-number">2</span>
+                <div>
+                  <h3>Corte y tratamiento</h3>
+                  <p>Cortamos, lijamos y pulimos el vidrio para asegurar bordes suaves y seguros.</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-number">3</span>
+                <div>
+                  <h3>Diseño y terminaciones</h3>
+                  <p>Agregamos detalles decorativos, grabados y empaques pensados para regalar o usar.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="card card-emphasis">
+            <h3>Productos para hogares y negocios</h3>
+            <p>
+              Personalizamos pedidos para cafés, bares, restaurantes y empresas que quieran un
+              <strong>toque sustentable</strong> en su experiencia de cliente.
+            </p>
+            <ul class="checklist">
+              <li><i class="fa-solid fa-check"></i> Vasos a juego para bares y restaurantes</li>
+              <li><i class="fa-solid fa-check"></i> Lámparas colgantes y de mesa</li>
+              <li><i class="fa-solid fa-check"></i> Regalos corporativos con identidad local</li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary btn-full">Agendar una cotización</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-nosotros" class="section">
+        <div class="container section-header">
+          <h2>Sobre el equipo y nuestra misión</h2>
+          <p>
+            En Paniri Reutiliza impulsamos una forma distinta de mirar el vidrio: no como residuo,
+            sino como una oportunidad para crear productos con identidad territorial y menor impacto ambiental.
+          </p>
+        </div>
+        <div class="container section-grid">
+          <article>
+            <h3>Presentación del equipo y el problema que abordamos</h3>
+            <p>
+              Hola, somos <strong>Paniri Malku Reutiliza</strong>, un equipo de emprendedores comprometidos con el medio
+              ambiente y la reutilización creativa de materiales. ¿Sabías que cada año, miles de botellas de vidrio terminan
+              en la basura o en vertederos, a pesar de ser un material 100% reciclable y con muchas posibilidades de
+              reutilización? Vimos en ese problema una oportunidad de cambio.
+            </p>
+
+            <h3>La solución y nuestra propuesta de valor</h3>
+            <p>
+              Por este motivo, desarrollamos una máquina que permite cortar botellas de vidrio y transformarlas en nuevos
+              productos sostenibles y con diseños relacionados con la flora y fauna de nuestro territorio, reduciendo el
+              impacto ambiental y fomentando una economía circular, mientras ofrecemos a empresas y consumidores una
+              alternativa ecológica, estética y responsable.
+            </p>
+            <p>
+              Esta máquina ha sido creada en su mayoría con materiales reciclados, incluyendo partes de un horno eléctrico
+              en desuso. Ahora estamos en una nueva etapa: queremos automatizar el proceso para que de esta manera podamos
+              obtener mayores resultados en menos tiempo.
+            </p>
+          </article>
+
+          <article class="card card-emphasis">
+            <h3>Impacto esperado y etapa de avance</h3>
+            <p>
+              Nuestro objetivo es reducir significativamente la cantidad de vidrio desechado y fomentar la cultura del
+              reciclaje con una herramienta práctica, accesible y autosustentable. Ya contamos con un prototipo funcional
+              y, con el financiamiento adecuado, podremos terminar la automatización y mejorar su rendimiento.
+            </p>
+
+            <h3>🌱 Misión</h3>
+            <p>
+              En <strong>Paniri Malku Reutiliza</strong> transformamos botellas de vidrio en desuso en productos
+              sostenibles, funcionales y con identidad territorial, mediante tecnología desarrollada con materiales
+              reciclados y procesos innovadores. Promovemos la economía circular, reducimos el impacto ambiental y
+              fomentamos una cultura de reciclaje responsable, ofreciendo a empresas y consumidores alternativas ecológicas,
+              estéticas y accesibles que convierten residuos en oportunidades.
+            </p>
+
+            <h3>🌎 Visión</h3>
+            <p>
+              Ser un emprendimiento referente en innovación sostenible y reutilización creativa del vidrio a nivel regional
+              y nacional, liderando la automatización de procesos de transformación ecológica. Aspiramos a generar un
+              cambio cultural en la forma en que las personas y organizaciones perciben los residuos, demostrando que es
+              posible construir desarrollo económico con conciencia ambiental, identidad local y compromiso social.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="impacto" class="section">
+        <div class="container section-header">
+          <h2>Impacto en Calama</h2>
+          <p>Cada compra en Paniri Reutiliza ayuda a reducir residuos y a visibilizar la economía circular en el desierto.</p>
+        </div>
+        <div class="container impact-grid">
+          <article class="impact-card">
+            <h3>Menos residuos en vertederos</h3>
+            <p>
+              El vidrio tarda miles de años en degradarse. Al reutilizar botellas, evitamos que terminen en
+              rellenos sanitarios o en el entorno de la II Región.
+            </p>
+          </article>
+          <article class="impact-card">
+            <h3>Emprendimiento local</h3>
+            <p>
+              Paniri Reutiliza nace en Calama y trabaja con proveedores locales, generando
+              <strong>empleo y encadenamiento productivo</strong> en la zona.
+            </p>
+          </article>
+          <article class="impact-card">
+            <h3>Educación y comunidad</h3>
+            <p>
+              Participamos en ferias, talleres y actividades educativas para inspirar a más personas a ver el
+              residuo como un recurso.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section-alt">
+        <div class="container contact-grid">
+          <div>
+            <h2>Hablemos de tu próximo proyecto sustentable</h2>
+            <p>
+              ¿Quieres un set de vasos para tu casa, una serie de lámparas para tu local en Calama o regalos
+              corporativos con identidad del desierto? Escríbenos y lo diseñamos juntos.
+            </p>
+            <div class="contact-details">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Calama, II Región de Chile</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>contacto@panirireutiliza.cl</span>
+              </div>
+            </div>
+            <p class="contact-note">
+              Utiliza el carrito para seleccionar tus productos y luego envíanos tu pedido directo por WhatsApp.
+            </p>
+          </div>
+          <form class="contact-form" autocomplete="on">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.cl" />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="Cuéntanos qué te gustaría crear a partir de botellas de vidrio."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <span class="logo-title">Paniri Reutiliza</span>
+          <p>Reutilización creativa de botellas de vidrio en Calama.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Síguenos</h3>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram de Paniri Reutiliza"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook de Paniri Reutiliza"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok de Paniri Reutiliza"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>&copy; <span id="currentYear"></span> Paniri Reutiliza. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+    <!-- Carrito lateral -->
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Carrito de compra</h2>
+        <button class="icon-button" id="closeCartBtn" aria-label="Cerrar carrito">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="cart-body">
+        <ul class="cart-items" id="cartItems"></ul>
+        <p class="cart-empty" id="cartEmpty">Tu carrito está vacío por ahora.</p>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-summary">
+          <span>Total</span>
+          <span class="cart-total" id="cartTotal">$0</span>
+        </div>
+        <button class="btn btn-primary btn-full" id="whatsappCheckoutBtn">
+          <i class="fa-brands fa-whatsapp"></i>
+          Enviar pedido por WhatsApp
+        </button>
+      </div>
+    </aside>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a
+      href="#"
+      id="floatingWhatsapp"
+      class="whatsapp-float"
+      aria-label="Contactar por WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
