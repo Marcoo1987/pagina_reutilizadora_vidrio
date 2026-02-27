@@ -279,6 +279,7 @@ button {
 .hero-highlight {
   background: linear-gradient(to right, var(--accent), #38bdf8, var(--accent-warm));
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -1074,4 +1075,3 @@ button {
     width: 100%;
   }
 }
-
